@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura.ttc">
+            <string>Futura-MediumItalic</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CourseView" customModule="H2Open_Plus" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="acA-3A-ZIe">
+                    <rect key="frame" x="0.0" y="41" width="375" height="292"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yJJ-1U-yn0">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="292"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="yJJ-1U-yn0" firstAttribute="centerY" secondItem="acA-3A-ZIe" secondAttribute="centerY" id="9QF-lA-Sms"/>
+                        <constraint firstAttribute="trailing" secondItem="yJJ-1U-yn0" secondAttribute="trailing" id="DeD-gl-cmu"/>
+                        <constraint firstAttribute="bottom" secondItem="yJJ-1U-yn0" secondAttribute="bottom" id="MW8-Cr-MmP"/>
+                        <constraint firstItem="yJJ-1U-yn0" firstAttribute="centerX" secondItem="acA-3A-ZIe" secondAttribute="centerX" id="QIL-fC-A8B"/>
+                        <constraint firstAttribute="width" secondItem="acA-3A-ZIe" secondAttribute="height" multiplier="375:292" id="XLw-Tg-BF6"/>
+                        <constraint firstItem="yJJ-1U-yn0" firstAttribute="top" secondItem="acA-3A-ZIe" secondAttribute="top" id="ujW-hF-WCI"/>
+                        <constraint firstItem="yJJ-1U-yn0" firstAttribute="leading" secondItem="acA-3A-ZIe" secondAttribute="leading" id="yt0-1b-lVd"/>
+                    </constraints>
+                </scrollView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kmM-fG-FbD">
+                    <rect key="frame" x="9" y="335" width="357" height="332"/>
+                    <color key="backgroundColor" red="0.1615715325" green="0.20815490189999999" blue="0.45893922450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="KaE-kh-U2g">
+                    <rect key="frame" x="177" y="323" width="20" height="20"/>
+                </activityIndicatorView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="mcw-n9-VEP">
+                    <rect key="frame" x="9" y="8" width="357" height="32"/>
+                    <fontDescription key="fontDescription" name="Futura-MediumItalic" family="Futura" pointSize="24"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.1615715325" green="0.20815490189999999" blue="0.45893922450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="mcw-n9-VEP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="FMz-8d-Vkr"/>
+                <constraint firstItem="acA-3A-ZIe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GyE-Bl-PVh"/>
+                <constraint firstItem="acA-3A-ZIe" firstAttribute="top" secondItem="mcw-n9-VEP" secondAttribute="bottom" constant="1" id="SKF-Q8-XDu"/>
+                <constraint firstItem="mcw-n9-VEP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="9" id="SPP-r5-EgM"/>
+                <constraint firstAttribute="trailing" secondItem="kmM-fG-FbD" secondAttribute="trailing" constant="9" id="Uz8-im-8wQ"/>
+                <constraint firstItem="KaE-kh-U2g" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="h3E-nR-xCM"/>
+                <constraint firstAttribute="bottom" secondItem="kmM-fG-FbD" secondAttribute="bottom" id="kMK-ue-6jg"/>
+                <constraint firstItem="kmM-fG-FbD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="9" id="lT9-VM-7bX"/>
+                <constraint firstAttribute="trailing" secondItem="mcw-n9-VEP" secondAttribute="trailing" constant="9" id="llt-Uc-UKL"/>
+                <constraint firstItem="KaE-kh-U2g" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="saO-uR-pgX"/>
+                <constraint firstAttribute="trailing" secondItem="acA-3A-ZIe" secondAttribute="trailing" id="uuO-13-RgI"/>
+                <constraint firstItem="kmM-fG-FbD" firstAttribute="top" secondItem="acA-3A-ZIe" secondAttribute="bottom" constant="2" id="uy3-dW-epM"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="courseInstructionsTextView" destination="kmM-fG-FbD" id="XWO-BL-C6V"/>
+                <outlet property="courseMapImage" destination="yJJ-1U-yn0" id="CcT-Ta-oOE"/>
+                <outlet property="courseNameLabel" destination="mcw-n9-VEP" id="h5c-MS-65h"/>
+                <outlet property="indicator" destination="KaE-kh-U2g" id="E5U-J4-UES"/>
+                <outlet property="scrollView" destination="acA-3A-ZIe" id="4JT-BK-riN"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+</document>
