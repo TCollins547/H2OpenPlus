@@ -61,7 +61,7 @@
                                     <action selector="settingsButtonPressed:" destination="T3U-mx-a6y" eventType="touchUpInside" id="Oaz-V2-7xi"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YbP-cG-5ce">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YbP-cG-5ce">
                                 <rect key="frame" x="16" y="82" width="343" height="602"/>
                                 <color key="backgroundColor" red="0.96216261390000002" green="0.0" blue="0.018013331260000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
@@ -463,7 +463,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYz-ly-nbO">
-                                                    <rect key="frame" x="89" y="4" width="592" height="34"/>
+                                                    <rect key="frame" x="89" y="4" width="199" height="34"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="34" id="ogG-w7-ku9"/>
                                                     </constraints>
@@ -472,7 +472,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bib #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6CB-8m-CWI">
-                                                    <rect key="frame" x="89" y="40" width="592" height="21"/>
+                                                    <rect key="frame" x="89" y="40" width="199" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="KmL-Wc-izM"/>
                                                     </constraints>
@@ -481,7 +481,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GD5-4U-i1D">
-                                                    <rect key="frame" x="89" y="61" width="592" height="21"/>
+                                                    <rect key="frame" x="89" y="61" width="199" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="ehX-9L-FPc"/>
                                                     </constraints>
@@ -490,7 +490,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXw-0U-bDW">
-                                                    <rect key="frame" x="689" y="32" width="73.666666666666629" height="26"/>
+                                                    <rect key="frame" x="296" y="32" width="73.666666666666686" height="26"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="73.5" id="9c6-Er-skZ"/>
                                                         <constraint firstAttribute="width" secondItem="BXw-0U-bDW" secondAttribute="height" multiplier="73:26" id="AFm-at-HRM"/>
