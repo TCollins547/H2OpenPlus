@@ -90,6 +90,7 @@
                         <outlet property="pageController" destination="URC-bf-cg3" id="ZIU-dE-Iqw"/>
                         <outlet property="referanceView" destination="YbP-cG-5ce" id="l2j-jx-sZq"/>
                         <outlet property="scrollView" destination="nbS-kS-MAx" id="MXJ-ap-UY4"/>
+                        <outlet property="settingsButton" destination="TdM-UR-xl3" id="JhA-F9-ABL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lef-hc-eus" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -284,7 +285,7 @@
                                 </view>
                                 <blurEffect style="light"/>
                             </visualEffectView>
-                            <scrollView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ugb-Jp-IRq">
+                            <scrollView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ugb-Jp-IRq">
                                 <rect key="frame" x="0.0" y="88" width="375" height="641"/>
                             </scrollView>
                             <view hidden="YES" alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xvi-7Z-JYC">

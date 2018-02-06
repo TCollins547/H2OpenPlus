@@ -15,6 +15,7 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, MFMailComposeV
     
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var referanceView: UIView!
+    @IBOutlet weak var settingsButton: UIButton!
     
     @IBOutlet weak var pageController: UIPageControl!
     
@@ -89,7 +90,8 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, MFMailComposeV
             subView.indicator.startAnimating()
             
             //Aligns center to each page of the scrollView
-            subView.frame.size = referanceView.frame.size
+            subView.frame = CGRect(x: 0, y: 0, width: Int(self.view.frame.width - 60), height: Int(pageController.frame.origin.y - settingsButton.frame.origin.y))
+            //subView.frame.size = referanceView.frame.size
             subView.center = CGPoint(x: referanceView.center.x + (view.frame.width * CGFloat(i)), y: referanceView.center.y); i += 1
             subView.layer.cornerRadius = 8
             
